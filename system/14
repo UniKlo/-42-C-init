@@ -1,0 +1,8 @@
+sudo tail -f /var/log/syslog &
+
+#Running tail needs permission
+#Running a command with just & pushes it off to the back and keeps it running as long as the terminal window is open. 
+#disown command for running even with terminal session ending
+#jobs, view all background jobs
+#bring it to fg, Ctrl + z/c, to stop 
+#bg, to continue with its execution 

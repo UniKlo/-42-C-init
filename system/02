@@ -1,0 +1,5 @@
+#!/bin/bash
+
+hostname
+
+#new hostname follow right after

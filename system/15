@@ -1,0 +1,3 @@
+sudo pkill tail
+
+#or you can look for its id in jobs, bring it to front, fg(foreground) + ID, then ctrl + c. 

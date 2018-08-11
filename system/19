@@ -1,0 +1,5 @@
+#-A adds a rule
+#if packet is input, reject it
+#[arg1] -j [arg2] arg2 specifies what to do with arg1
+
+sudo iptables -A INPUT -j REJECT
