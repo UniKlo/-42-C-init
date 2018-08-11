@@ -1,5 +1,0 @@
-
-nat (10.90.1.11)
-
-#NAT stands for "Network Address Translation.".
-#It allows a single device, such as a router, to act as an agent between the Internet (or public network) and a local network (or private network), which means that only a single unique IP address is required to represent an entire group of computers to anything outside their network.
