@@ -1,7 +1,6 @@
 #!/bin/bash
 
-if [ -d "$1" ]; then
-   ls -lSh "$1"
-else
-	echo "./03 FOLDER"
-fi
+ls -lSh "$1"
+
+# l is for detailed list, S is for sort by size, h is human readable.
+# could add R flag to show all subfolder files.
