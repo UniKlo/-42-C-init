@@ -21,3 +21,9 @@ if [ "$MD5" != "$MD5_BACKUP" ]; then
 fi
 
 sudo cp $TARGET $BACKUP
+
+#we have to set up the scheduling by running the command "crontab -e"
+#and add "0 0 * * *  <this .sh file's path>" to make it run every night 0:00
+#source for if else: http://www.dreamsyssoft.com/unix-shell-scripting/ifelse-tutorial.php
+#source for cut: https://stackoverflow.com/questions/816820/use-space-as-a-delimiter-with-cut-command
+#and man mail
