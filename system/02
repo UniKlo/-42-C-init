@@ -1,5 +1,6 @@
 #!/bin/bash
 
-hostname
+sudo hostname <name you want>
 
 #new hostname follow right after
+#https://www.cyberciti.biz/faq/debian-change-hostname-permanently/

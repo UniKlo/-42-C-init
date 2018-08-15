@@ -1,1 +1,4 @@
 ps axu | less
+
+#or: top
+#https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/

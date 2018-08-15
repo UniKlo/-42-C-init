@@ -1,1 +1,1 @@
-/etc/lsb-release
+cat /etc/issue && cat /etc/debian_version

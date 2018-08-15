@@ -10,3 +10,6 @@ echo "0 4 * * 0 root /etc/cron.weekly/weeklyupdate.sh" | crontab
 # 3. Entry: Day of the month when the process will be started [1-28/29/30/31]
 # 4. Entry: Month of the year when the process will be started [1-12]
 # 5. Entry: Weekday when the process will be started [0-6] [0 is Sunday]
+#source for apt-get: https://www.cyberciti.biz/tips/linux-debian-package-management-cheat-sheet.html
+#source for autorun pre week: https://stackoverflow.com/questions/16717930/how-to-run-crontab-job-every-week-on-sunday
+#source for appending to a file: https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file

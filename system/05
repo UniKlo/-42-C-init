@@ -1,1 +1,5 @@
 /etc/init.d/ssh status
+
+#or: sudo service ssh status
+#https://www.linuxquestions.org/questions/ubuntu-63/how-to-restart-and-check-status-of-ssh-server-595217/
+#https://www.cyberciti.biz/faq/howto-start-stop-ssh-server/ 
